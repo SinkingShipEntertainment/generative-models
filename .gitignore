@@ -12,3 +12,6 @@
 /outputs
 /build
 /src
+
+_rez_build
+.vscode
