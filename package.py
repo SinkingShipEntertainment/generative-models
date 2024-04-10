@@ -37,7 +37,7 @@ requires = [
     "rembg",
     "scipy",
     "streamlit",
-    "tensorboardx-2.6",
+    "tensorboardX-2.6",
     "timm",
     "tokenizers-0.12.1",
     "torch",
