@@ -48,7 +48,7 @@ requires = [
     "tqdm",
     "transformers-4.19.1",
     "triton-2.0.0",
-    "urllib3-1.26,",
+    "urllib3-1.26",
     "wandb",
     "webdataset",
     "wheel",
