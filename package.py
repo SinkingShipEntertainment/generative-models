@@ -42,12 +42,12 @@ requires = [
     "tokenizers-0.12.1",
     "torch",
     "torchaudio",
-    "torchdata",  # the requirements/pt2.txt asks for 0.6.1, which forces torch-2.0.1+, which conflicts with others requiring torch-2.2.2+, so I installed the latest of torchdata
+    "torchdata",  # the requirements/pt2.txt asks for 0.6.1, which forces torch-2.0.1+, which conflicts with others requiring torch-2.2.2+, so I installed the latest
     "torchmetrics",
     "torchvision",
     "tqdm",
     "transformers-4.19.1",
-    "triton-2.0.0",
+    "triton", # the requirements/pt2.txt asks for 2.0.0, which creates rez conflicts, so I installed the latest
     "urllib3-1.26",
     "wandb",
     "webdataset",
