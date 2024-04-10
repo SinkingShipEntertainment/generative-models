@@ -33,7 +33,7 @@ requires = [
     "pillow",
     "pudb",
     "pytorch_lightning-2.0.1",
-    "pyyaml",
+    "PyYAML",
     "rembg",
     "scipy",
     "streamlit",
