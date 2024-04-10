@@ -42,7 +42,7 @@ requires = [
     "tokenizers-0.12.1",
     "torch",
     "torchaudio",
-    "torchdata-0.6.1",
+    "torchdata",  # the requirements/pt2.txt asks for 0.6.1, which forces torch-2.0.1+, which conflicts with others requiring torch-2.2.2+, so I installed the latest of torchdata
     "torchmetrics",
     "torchvision",
     "tqdm",
